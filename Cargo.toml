@@ -6,3 +6,7 @@ authors = ["Bruno Demartino <demartinoba@gmail.com>"]
 [dependencies.uinput]
 version = "0.1.3"
 default-features = false
+
+[patch.crates-io]
+ioctl-sys = { git = "https://github.com/brunodmt/ioctl", branch = "add-android-support" }
+

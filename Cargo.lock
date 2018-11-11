@@ -40,7 +40,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 [[package]]
 name = "ioctl-sys"
 version = "0.5.2"
-source = "registry+https://github.com/rust-lang/crates.io-index"
+source = "git+https://github.com/brunodmt/ioctl?branch=add-android-support#263ceccdec6ffe4742f6c9dd1bbfad0c5995327b"
 
 [[package]]
 name = "iovec"
@@ -93,7 +93,7 @@ name = "uinput-sys"
 version = "0.1.7"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 dependencies = [
- "ioctl-sys 0.5.2 (registry+https://github.com/rust-lang/crates.io-index)",
+ "ioctl-sys 0.5.2 (git+https://github.com/brunodmt/ioctl?branch=add-android-support)",
  "libc 0.2.43 (registry+https://github.com/rust-lang/crates.io-index)",
 ]
 
@@ -115,7 +115,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 "checksum custom_derive 0.1.7 (registry+https://github.com/rust-lang/crates.io-index)" = "ef8ae57c4978a2acd8b869ce6b9ca1dfe817bff704c220209fdef2c0b75a01b9"
 "checksum enum_derive 0.1.7 (registry+https://github.com/rust-lang/crates.io-index)" = "406ac2a8c9eedf8af9ee1489bee9e50029278a6456c740f7454cf8a158abc816"
 "checksum gcc 0.3.55 (registry+https://github.com/rust-lang/crates.io-index)" = "8f5f3913fa0bfe7ee1fd8248b6b9f42a5af4b9d65ec2dd2c3c26132b950ecfc2"
-"checksum ioctl-sys 0.5.2 (registry+https://github.com/rust-lang/crates.io-index)" = "5e2c4b26352496eaaa8ca7cfa9bd99e93419d3f7983dc6e99c2a35fe9e33504a"
+"checksum ioctl-sys 0.5.2 (git+https://github.com/brunodmt/ioctl?branch=add-android-support)" = "<none>"
 "checksum iovec 0.1.2 (registry+https://github.com/rust-lang/crates.io-index)" = "dbe6e417e7d0975db6512b90796e8ce223145ac4e33c377e4a42882a0e88bb08"
 "checksum libc 0.2.43 (registry+https://github.com/rust-lang/crates.io-index)" = "76e3a3ef172f1a0b9a9ff0dd1491ae5e6c948b94479a3021819ba7d860c8645d"
 "checksum nix 0.10.0 (registry+https://github.com/rust-lang/crates.io-index)" = "b7fd5681d13fda646462cfbd4e5f2051279a89a544d50eb98c365b507246839f"
